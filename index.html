@@ -21,6 +21,7 @@ initial-scale=1.0">
             <li><a href="#educacion">Educación</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
         </ul>
     </nav>
     <main>
@@ -40,6 +41,176 @@ initial-scale=1.0">
         <section id="proyectos">
             <h2>Proyectos</h2>
         </section>
+
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+
+            <article>
+                <blockquote>
+                    “Juan tiene una capacidad impresionante para resolver problemas complejos con soluciones simples y
+                    elegantes.”
+                </blockquote>
+                <p>
+                    <strong>Ana Rodríguez</strong><br>
+                    Gerente de Tecnología en TechNova<br>
+                    Trabajó con Juan durante 2 años en proyectos de desarrollo web de alto impacto, destacando su
+                    liderazgo y habilidades técnicas.
+                </p>
+            </article>
+
+            <article>
+                <blockquote>
+                    “Su atención al detalle y compromiso con la calidad lo convierten en un colaborador valiosísimo.”
+                </blockquote>
+                <p>
+                    <strong>Carlos Méndez</strong><br>
+                    Director de Proyectos en Innovatech<br>
+                    Colaboró con Juan en múltiples plataformas SaaS, donde Juan demostró una gran capacidad de
+                    adaptación y entrega puntual.
+                </p>
+            </article>
+
+            <article>
+                <blockquote>
+                    “Juan no solo cumple, sino que siempre busca cómo mejorar cada aspecto del producto.”
+                </blockquote>
+                <p>
+                    <strong>Laura Gómez</strong><br>
+                    Líder de Producto en SmartSolutions<br>
+                    Trabajó con Juan en una aplicación móvil y destaca su enfoque centrado en el usuario y su código
+                    limpio y escalable.
+                </p>
+            </article>
+        </section>
+
+        <p>Para más información sobre mi trabajo, visita mi <a href="https://www.miportfolio.com" target="_blank"
+                rel="noopener noreferrer">portafolio en línea</a>.</p>
+
+        <ol>
+            <li>Graduado en Ingeniería Informática</li>
+            <li>Experiencia en desarrollo web</li>
+            <li>Certificación en metodologías ágiles</li>
+        </ol>
+
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML5 y CSS3</li>
+            <li>React.js</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th> <!-- Celda vacía en la esquina superior izquierda -->
+                    <th>2019</th>
+                    <th>2020</th>
+                    <th>2021</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Proyectos completados</th>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <th scope="row">Clientes satisfechos</th>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <th scope="row">Horas de formación</th>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>55</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <section aria-label="Ubicación de la oficina">
+            <h2>Mi ubicación</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.9505895488617!2d-122.08424948469248!3d37.42206577982588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5c3e85af1b5%3A0x8e9f345f7d67444d!2sGoogleplex!5e0!3m2!1ses!2sus!4v1696575000000!5m2!1ses!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Mapa de ubicación de la oficina de Juan Pérez">
+            </iframe>
+        </section>
+
+        <img src="https://picsum.photos/400/300" alt="Ejemplo de imagen de placeholder para proyectos" width="400"
+            height="300" />
+
+        <section aria-label="Video de presentación profesional">
+            <h2>Video de presentación</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Video de presentación profesional de Juan Pérez" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <form action="/enviar-cv" method="post" aria-label="Formulario de contacto para currículum vitae">
+
+            <!-- Campo de texto en una línea -->
+            <div>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre completo">
+            </div>
+
+            <!-- Lista desplegable -->
+            <div>
+                <label for="puesto">Puesto de interés:</label>
+                <select id="puesto" name="puesto" required>
+                    <option value="">Seleccione un puesto</option>
+                    <option value="desarrollador">Desarrollador Web</option>
+                    <option value="diseñador">Diseñador UX/UI</option>
+                    <option value="gerente">Gerente de Proyecto</option>
+                </select>
+            </div>
+
+            <!-- Selección única (radio buttons) -->
+            <fieldset>
+                <legend>¿Tiene experiencia laboral previa?</legend>
+                <div>
+                    <input type="radio" id="experiencia_si" name="experiencia" value="si" required>
+                    <label for="experiencia_si">Sí</label>
+                </div>
+                <div>
+                    <input type="radio" id="experiencia_no" name="experiencia" value="no">
+                    <label for="experiencia_no">No</label>
+                </div>
+            </fieldset>
+
+            <!-- Selección múltiple (checkboxes) -->
+            <fieldset>
+                <legend>Habilidades técnicas:</legend>
+                <div>
+                    <input type="checkbox" id="html" name="habilidades" value="html">
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="css" name="habilidades" value="css">
+                    <label for="css">CSS</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="js" name="habilidades" value="js">
+                    <label for="js">JavaScript</label>
+                </div>
+            </fieldset>
+
+            <!-- Área de texto -->
+            <div>
+                <label for="mensaje">Mensaje o comentario:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <!-- Botón enviar -->
+            <div>
+                <button type="submit">Enviar formulario</button>
+            </div>
+
+        </form>
     </main>
     <footer>
         <p>© Tu Nombre - 2023</p>
