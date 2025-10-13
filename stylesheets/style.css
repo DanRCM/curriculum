@@ -34,11 +34,12 @@ nav {
     padding: 10px 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    margin: 0;
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
 
 nav ul li {
